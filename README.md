@@ -22,7 +22,7 @@ touch hello.rb
 
 CFU by having students identify that their prompt ends in `day-one`, and by identifying a hello.rb file on the left side of the screen.  
 
-This lesson introduces a lot of really foundational vocabulary words. This is a CRITICAL time to make a **datatypes anchor chart**, and include integers, floats, strings, and booleans. Leave room for Symbols, which will come up on day 3 when we cover dictionaries.
+This lesson introduces a lot of really foundational vocabulary words. This is a CRITICAL time to make a **datatypes anchor chart**, and include integers, floats, strings, and booleans. Leave room for Symbols, which will come up on day 3 when we cover hashes.
 
 ## Hello World
 
@@ -194,9 +194,9 @@ else
 end
 ```
 
-Before running, ask students to predict what will happen if the user says their name is Beyonce. Then ask what will happen if the user gives a different name.
+Before running, ask students to predict what will happen if the user says their name is Beyonce. Then ask what will happen if the user gives a different name. Be prepared for students to notice that 'beyonce' with a lowercase b will not work.
 
-Ask students to try running this program to get both results. Preface this with the fact that about HALF the students will get errors. A
+Ask students to try running this program to get both results. Preface this with the fact that about HALF the students will get errors.
 
 #### Compound operators and branching if statements
 
@@ -216,7 +216,7 @@ else
 end
 ```
 
-Ask students to run this program with combinations of answers to get all three results. Explain that they can expect errors, and celebrate those errors as learning opportunities.
+Ask students what the password is for the program. Ask students to run this program with combinations of answers to get all three results. Explain that they can expect errors, and celebrate those errors as learning opportunities.
 
 #### Takeaways
 
@@ -277,7 +277,8 @@ end
 
 Stretch challenges / lab time:
 * Include other age cutoffs for activities like driving, renting a car, or retiring.
-* Go back to the greeter and write code to see if Beyonce is lying about her age.
+* Go back to the greeter and add code to ask for the user's age.
+    * Write code to respond if Beyonce's age is incorrect.
 * Go back to the greeter and add to the user base by making sure it can greet Jackie Chan, Will Smith and a few other celebrities. Consider giving them unique passwords.
 * Invite them to go back and finish any of the earlier labs that were giving them trouble.
 
