@@ -57,6 +57,7 @@ puts("4" + "3")
 puts(4 + 3)
 puts(4.0 + 3.0)
 ```
+QUESTION: Do we need to demo this with parenthesis to emphasize PEMDAS down the line? I typically don't show simple math wrapped in parenthesis. -SD
 
 Name the datatypes Int and Float, but avoid explaining the difference.
 Ask students to make a prediction about what each line will print before moving on.
@@ -121,7 +122,11 @@ puts "Good morning #{name}!"
 puts "Good morning " + name2 + "!"
 ```
 
-Stop and ask students whether they prefer concatenation or interpolation and have them explain why.
+Stop and ask students whether they prefer concatenation or interpolation and have them explain why. 
+
+#### Playtime
+
+* Ask students to add a variable called age that has a string inside of it and try interpolating (or concatenating) TWO variables into one string.
 
 #### Built-in methods
 
@@ -133,13 +138,16 @@ puts "Good morning #{name}!"
 puts "Your name has #{name.length} letters in it!"
 ```
 
-Ask students to predict what will be printed. Ask them what will be printed if they change Lauren's name to their own. Let them test it out. Explain that this is a built-in string method, and that it's **called** on a string using this dot syntax.
-Ask students why it's better to have the computer compute the length of Lauren's name rather than just hard-coding in the number 6.
+* Ask students to predict what will be printed. 
 
 #### Playtime
 
 * Ask students to change the string "Lauren" to another name.
-* Ask students to add a variable called age that has a string inside of it and try interpolating (or concatenating) TWO variables into one string.
+* Ask them what will be printed if they change Lauren's name to their own. Let them test it out. Explain that this is a built-in string method, and that it's **called** on a string using this dot syntax.
+* Ask students why it's better to have the computer compute the length of Lauren's name rather than just hard-coding in the number 6.
+* Let students know there are LOTS of string methods. List out a few, such as .upcase, .downcase, .capitalize, .swapcase, and let students predict how they will manipulate text and then test them out in their own code.
+* Prompt students to Google "Ruby string methods," and take an opportunity to look at Ruby Docs together, locating the variety of string methods that exist and playing with any that look interesting.
+
 
 #### Takeaways
 
