@@ -57,7 +57,6 @@ puts("4" + "3")
 puts(4 + 3)
 puts(4.0 + 3.0)
 ```
-QUESTION: Do we need to demo this with parenthesis to emphasize PEMDAS down the line? I typically don't show simple math wrapped in parenthesis. -SD
 
 Name the datatypes Int and Float, but avoid explaining the difference.
 Ask students to make a prediction about what each line will print before moving on.
